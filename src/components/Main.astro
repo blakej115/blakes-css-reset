@@ -1,0 +1,65 @@
+---
+import { Content } from "../content/reset.md";
+---
+
+<main>
+  <h1>Blake's CSS Reset</h1>
+  <div class="btns">
+    <a class="btn btn-primary" href="/reset.css" target="_blank">Open</a>
+    <a class="btn btn-secondary" href="/reset.css" target="_blank" download
+      >Download</a
+    >
+  </div>
+  <Content />
+</main>
+
+<style>
+  main {
+    font-family: "DM Sans Variable", sans-serif;
+    background: #171a1d;
+    padding: 2rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  h1 {
+    font-size: clamp(26px, 14.667px + 3.542vw, 60px);
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .btns {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .btn {
+    display: block;
+    padding: 0.75rem 1rem;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: 0.4s;
+    &:hover {
+      background: #696969;
+    }
+  }
+
+  .btn-primary {
+    background: #488948;
+  }
+
+  .btn-secondary {
+    background: #894848;
+  }
+
+  :global(.astro-code) {
+    padding: 1.5rem;
+    border-radius: 4px;
+    font-family: monospace;
+  }
+</style>

@@ -1,3 +1,4 @@
+```css
 * {
   color: inherit;
   font: inherit;
@@ -28,3 +29,4 @@ video {
   height: auto;
   object-fit: cover;
 }
+```
