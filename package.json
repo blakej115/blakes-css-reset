@@ -10,9 +10,9 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/check": "^0.3.1",
-    "@fontsource-variable/dm-sans": "^5.0.3",
-    "astro": "^3.6.4",
-    "typescript": "^5.3.2"
+    "@astrojs/check": "^0.9.4",
+    "@fontsource-variable/dm-sans": "^5.1.1",
+    "astro": "^5.1.7",
+    "typescript": "^5.7.3"
   }
 }
